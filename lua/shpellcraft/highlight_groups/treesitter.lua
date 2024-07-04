@@ -42,7 +42,8 @@ function treesitter.groups()
         ['@comment.todo.comment'] = { link = '@comment.todo' },
         ['@comment.todo'] = { link = 'Todo' },
 
-        ['@string.documentation'] = { fg = p.ghost, italic = false }
+        ['@string.documentation'] = { fg = p.ghost, italic = false },
+        ['@markup.heading.gitcommit'] = { fg = p.moon, bold = true },
     }
 end
 
