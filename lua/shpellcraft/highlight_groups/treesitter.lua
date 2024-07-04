@@ -25,7 +25,7 @@ function treesitter.groups()
         ['@symbol'] = { fg = p.magic },
         ['@tag'] = { fg = p.magic },
         ['@tag.attribute'] = { fg = p.light },
-        ['@type'] = { fg = p.bone },
+        ['@type'] = { fg = p.magic },
         ['@delimiter'] = { fg = p.bone },
         ['@text.uri'] = { fg = p.fairy },
 
