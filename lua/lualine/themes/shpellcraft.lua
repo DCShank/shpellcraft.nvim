@@ -17,8 +17,8 @@ return {
         c = { bg = palette.rune1, fg = palette.moon }
     },
     replace = {
-        a = { bg = palette.water, fg = palette.curse, gui = 'bold' },
-        b = { bg = palette.curse, fg = palette.water },
+        a = { bg = palette.magic, fg = palette.curse, gui = 'bold' },
+        b = { bg = palette.curse, fg = palette.magic },
         c = { bg = palette.rune1, fg = palette.moon }
     },
     command = {

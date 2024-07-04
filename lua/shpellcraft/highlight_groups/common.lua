@@ -168,24 +168,14 @@ function common.groups()
 
         --
         -- Neovim LSP
-        -- TODO Move this into a separate file
         --
-        -- Backwards compatibility with neovim <0.5.x
-        LspDiagnosticsDefaultError = { link = "DiagnosticError" },
-        LspDiagnosticsDefaultWarning = { link = "DiagnosticWarn" },
-        LspDiagnosticsDefaultInformation = { link = "DiagnosticInfo" },
-        LspDiagnosticsDefaultHint = { link = "DiagnosticHint" },
-
-        LspDiagnosticUnderlineError = { link = "DiagnosticUnderlineError" },
-        LspDiagnosticUnderlineWarning = { link = "DiagnosticUnderlineWarn" },
-        LspDiagnosticUnderlineInformation = { link = "DiagnosticUnderlineInfo" },
-        LspDiagnosticUnderlineHint = { link = "DiagnosticUnderlineHint" },
 
         -- Latest hl groups
         DiagnosticError = { fg = p.vitae },
         DiagnosticWarn = { fg = p.sun },
         DiagnosticInfo = { fg = p.goblin },
         DiagnosticHint = { fg = p.jewel },
+        DiagnosticUnnecessary = { fg = p.bone, underdotted = true, sp = p.bone },
 
         DiagnosticUnderlineError = { undercurl = true, sp = p.vitae },
         DiagnosticUnderlineWarn = { undercurl = true, sp = p.sun },
@@ -201,19 +191,19 @@ function common.groups()
         DiffChange = { fg = p.frost, bg = p.ui.bg },
         DiffText = { fg = p.light, bg = p.ui.bg },
 
-        diffAdded = {link = "DiffAdd"},
-        diffRemoved = {link = "DiffDelete"},
-        diffChanged = {link = "DiffChange"},
+        diffAdded = { link = "DiffAdd" },
+        diffRemoved = { link = "DiffDelete" },
+        diffChanged = { link = "DiffChange" },
 
-        diffFile = {fg = p.ember},
-        diffNewFile = {fg = p.light},
+        diffFile = { fg = p.ember },
+        diffNewFile = { fg = p.light },
 
-        diffLine = {fg = p.magic},
+        diffLine = { fg = p.magic },
 
         --
         -- Misc
         --
-        ExtraWhiteSpace = {bg = p.mania},
+        ExtraWhiteSpace = { bg = p.mania },
     }
 end
 
