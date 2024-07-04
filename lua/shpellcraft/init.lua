@@ -1,6 +1,6 @@
+local shpellcraft = {}
 local utils = require("shpellcraft.utils")
 local theme = require("shpellcraft.theme")
-local shpellcraft = {}
 
 function shpellcraft.colorscheme(options)
     if not utils.loaded() then
@@ -11,6 +11,7 @@ function shpellcraft.colorscheme(options)
     -- load highlights
     theme.set_highlights(options)
     -- load terminal
+    theme.set_terminal(options)
 end
 
 shpellcraft.load = shpellcraft.colorscheme

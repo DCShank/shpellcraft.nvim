@@ -49,7 +49,7 @@ function common.groups()
         -- The column separating vertically split windows
         VertSplit = { fg = p.moon, bg = p.ui.bg },
         -- Current match in wildmenu completion
-        WildMenu = { fg = p.magic, bg = p.ui.bg, bolf = true },
+        WildMenu = { fg = p.magic, bg = p.ui.bg, bold = true },
 
         -- Directory Names, special names in listing
         Directory = { fg = p.fairy, bold = true },

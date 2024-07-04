@@ -6,8 +6,7 @@ function highlight_groups.groups()
     }
     local result = {}
 
-    for dontignore, groups in pairs(modules) do
-        vim.print(dontignore, groups)
+    for _, groups in pairs(modules) do
 		for group, highlight in pairs(groups) do
 			result[group] = highlight
 		end
@@ -15,3 +14,5 @@ function highlight_groups.groups()
 
     return result
 end
+
+return highlight_groups
