@@ -77,7 +77,7 @@ function common.groups()
         -- TODO check the todo that existed in the original
         SignColumn = { bg = p.ui.bg },
         -- Line used for closed folds
-        Folded = { fg = p.ghost, bg = p.bone, italic = true },
+        Folded = { fg = p.bone, bg = p.ghost, italic = true },
         -- Column where folds are displayed
         FoldColumn = { fg = p.ghost, bg = p.ui.bg },
 
