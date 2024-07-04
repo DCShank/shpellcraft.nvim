@@ -144,7 +144,7 @@ function common.groups()
         Structure = { fg = p.frost, italic = true },
         TypeDef = { fg = p.heart, italic = true },
 
-        Delimiter = {fg = p.ghost},
+        Delimiter = {fg = p.bone},
 
         --
         -- Completion Menu
